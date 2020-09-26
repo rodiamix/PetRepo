@@ -10,6 +10,10 @@ public class UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String firstName;
+
+    private String lastName;
+
     private Boolean gender;
 
     private Date dateOfBirth;
