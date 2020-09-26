@@ -26,6 +26,15 @@ public class User {
     public User() {
     }
 
+    public String getUsername() {
+        return username;
+    }
+
+    public User setUsername(String username) {
+        this.username = username;
+        return this;
+    }
+
     public User(String username, String password) {
         this.username = username;
         this.password = password;
@@ -39,16 +48,6 @@ public class User {
         this.id = id;
         return this;
     }
-
-    public String getFirstName() {
-        return username;
-    }
-
-    public User setFirstName(String username) {
-        this.username = username;
-        return this;
-    }
-
 
     public String getPassword() {
         return password;
