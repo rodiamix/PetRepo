@@ -6,11 +6,15 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Activity {
+public class Food {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String description;
-    private Long seconds;
-    private Double burnedCalories;
+    private String name;
+    private Double calories;
+    private Double grams;
+    private Double fats;
+    private Double proteins;
+    private Double carbohydrates;
+
 }
