@@ -1,7 +1,6 @@
 package org.pet.entity;
 
 import javax.persistence.*;
-import java.util.Set;
 
 @Entity
 public class Goal {
@@ -13,5 +12,5 @@ public class Goal {
     private String description;
 
     @OneToOne
-    private UserDetails userDetails;
+    private UserInfo userInfo;
 }
