@@ -19,6 +19,8 @@ public class UserController {
     private SecurityService securityService;
     private UserValidator userValidator;
 
+    int d = 0;
+
     @Autowired
     public void setUserService(UserService userService) {
         this.userService = userService;
